@@ -1,0 +1,19 @@
+$color-primary: #105F9A;
+$color-secondary: #3F9ADE;
+$color-tertiary: #D7F2FA;
+
+.color-secondary{
+   color: $color-secondary;
+}
+.color-primary{
+   color: $color-primary;
+}
+
+.login-icon {
+    color: $color-primary;
+}
+
+.active {
+    font-weight: bold;
+}
+

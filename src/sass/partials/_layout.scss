@@ -1,0 +1,156 @@
+.primary-button {
+    border-radius: 8px !important;
+    background-color: $color-secondary;
+    color: white;
+
+    &:hover {
+        background-color: $color-primary;
+        color: white;
+    }
+}
+.secondary-button {
+    border-radius: 8px !important;
+    background-color: white;
+    border: 1px solid $color-secondary;
+    color: $color-secondary;
+    font-weight: 700;
+    &:hover {
+        background-color: $color-primary;
+        color: white;
+    }
+}
+
+.primary-button-accordion {
+    border: none;
+    background-color: $color-secondary;
+    color: white;
+
+    &:hover {
+        background-color: $color-primary;
+    }
+}
+
+.accordion-title {
+    background-color: $color-secondary;
+    border: none !important;
+    color: white;
+    cursor: pointer;
+}
+.accordion-subtitle {
+    background-color: white;
+    border: none;
+    color: $color-secondary;
+    cursor: pointer;
+
+    &:hover{
+        background-color: $color-tertiary;
+    }
+}
+
+.btn {
+    border-radius: 8px !important;
+}
+
+.btn-sm {
+    border-radius: none;
+}
+
+.custom-file-upload {
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid $color-secondary;
+    color: $color-secondary;
+    padding: 6px 12px;
+    &:hover {
+        background-color: $color-primary;
+        color: white;
+    }
+    cursor: pointer;
+}
+
+#file-upload {
+    display: none;
+}
+
+.card {
+    border: 1px solid $color-secondary !important;
+    border-radius: 8px !important;
+}
+
+.form-control,
+.custom-select {
+    border-radius: 8px !important;
+     &:focus{
+            box-shadow: none;
+        }
+}
+
+.rbt-input {
+    border-radius: 0px !important;
+    border-top-right-radius: 8px !important;
+        border-bottom-right-radius: 8px !important;
+        &:focus{
+            box-shadow: none;
+        }
+}
+
+/* https://jsfiddle.net/Beaniie/s8rm1f0q/5/ */
+
+.navbar-toggler {
+    border: none;
+    &:focus {
+        outline: none;
+        background: transparent !important;
+    }
+    height: 30px;
+    padding: 0;
+}
+
+
+@media only screen and (min-width: 576px) {
+    .contact-form {
+        width: 80%;
+    }
+    
+}
+@media only screen and (min-width: 768px) {
+    .contact-form {
+        width: 60%;
+    }
+    
+}
+
+@media only screen and (min-width: 992px) {
+    .contact-form {
+        width: 50%;
+    }
+
+    .admin-dashboard-width{
+        width: 768px;
+    }
+    
+}
+@media only screen and (min-width: 1200px) {
+    .contact-form {
+        width: 40%;
+    }  
+}
+
+.modal-background .modal-content {
+    color: $color-secondary;
+    border-radius: 8px;
+    overflow: hidden;
+
+    .close {
+        color: $color-secondary !important;
+    }
+}
+
+.modal-no-border {
+    border: none;
+}
+
+.modal-contact .modal-content {
+    background-color: $color-secondary;
+    color: white;
+}

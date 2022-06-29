@@ -1,0 +1,83 @@
+.jumbotron-img {
+  background-image: url("../../images/bergen.jpg"), linear-gradient(rgb(189, 189, 189), rgb(189, 189, 189));
+  background-size: cover;
+  height: 90vh;
+  margin-bottom: 0px;
+  color: white;
+  display: flex;
+  align-items: center;
+  background-blend-mode: multiply;
+}
+
+h2 {
+  color: $color-primary;
+  text-align: center;
+}
+
+.jumbotron-content {
+  text-align: center;
+}
+
+.landingpage-title {
+  font-weight: 900;
+  font-size: 78px;
+  color: white;
+}
+
+.landingpage-subtitle {
+  font-size: 48px;
+  color: white;
+}
+
+.rounded-corners {
+  border-radius: 8px;
+}
+
+.searchbar-width {
+  max-width: 65%;
+  margin: 0 auto;
+}
+
+.dropdown-item:hover {
+  background-color: $color-tertiary;
+}
+
+.overlay {
+  border-radius: 8px;
+  transform: translateY(-90px);
+}
+
+#submit-search {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 0px !important;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 0px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .searchbar-width {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 824px) {
+  .landingpage-title {
+    font-weight: 900;
+    font-size: 45px;
+  }
+
+  .landingpage-subtitle {
+    font-size: 32px;
+    color: white;
+  }
+}
+
+.featured-hotels {
+  transform: translateY(-90px);
+  border: 1px solid rgb(226, 226, 226);
+  box-shadow: 0 0 4px rgba(33, 33, 33, 0.2);
+  background-color: white;
+  border-radius: 8px !important;
+  padding-top: 1px;
+}
